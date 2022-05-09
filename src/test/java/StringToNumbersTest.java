@@ -16,9 +16,9 @@ public class StringToNumbersTest {
 
     }
     @Test
-    public void testStringToplusLetter(){
+    public void testStringPlusLetter(){
 
-        String str = "1,fg fdb2,nh  n3,4nhnh,5";
+        String str = "1,fg fdb2,nh  n3,4n  hnh,5";
         int [] expectedResult = {1, 2, 3, 4, 5};
 
         StringToNumbers stn = new StringToNumbers();
